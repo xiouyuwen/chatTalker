@@ -5,6 +5,7 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
     color: #221E1F;
     letter-spacing: 2px;
+    line-height: 1.5;
 }
 img{
     max-width: 100%;
@@ -19,7 +20,6 @@ button{
 }
 p{
     color: #221E1F;
-    line-height: 1.5;
 }
 .wrap{
     max-width: 1440px;
@@ -28,7 +28,7 @@ p{
     background-repeat: no-repeat,no-repeat;
     background-position: top right,left -200px bottom 350px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .wrap{
         background-image: none;
         background-image: url(/chatTalker_images/bg_home_sm.svg),url(/chatTalker_images/ball01.svg);
@@ -37,12 +37,34 @@ p{
         background-position: center bottom 1040px,left -200px bottom 615px;
     }
 }
+.btn-top{
+    display: block;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    background-color: #56C4C5;
+    font-size: 24px;
+    color: white;
+    position: fixed;
+    bottom: 5rem;
+    right: 10rem;
+    cursor: pointer;
+    z-index: 5;
+    text-align: center;
+    line-height: 2.8;
+    font-weight: bold;
+}
+@media screen and (max-width: 767px){
+    .btn-top{
+        right: 5rem;
+    }
+}
 .container{
     max-width: 1088px;
     margin: 0 auto;
     padding-top: 24px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .container{
         max-width: 555px;
     }
@@ -51,7 +73,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .header{
         padding-bottom: 16px;
         position: sticky;
@@ -79,7 +101,7 @@ p{
     justify-content: space-between;
     margin-top: 30x;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .header-main{
         flex-direction: column;
     }
@@ -90,7 +112,7 @@ p{
     color: #56C4C5;
     font-weight: bold;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .hd-txt{
         margin: 32px 0 8px 0 ;
         font-size: 16px;
@@ -101,7 +123,7 @@ h1{
     font-weight: bold;
     line-height: 1.2;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     h1{
         font-size: 32px;
     }
@@ -110,7 +132,7 @@ h1{
     font-size: 20px;
     margin: 16px 0 50px 0;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .hd-txt2{
         font-size: 16px;
     }
@@ -118,7 +140,7 @@ h1{
 .hd-img{
     width: 532px
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .hd-img{
         width: 100%;
         margin: 32px 0 0 0 ;
@@ -134,7 +156,7 @@ h1{
     align-items: center;
     margin-bottom: 100px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .media-main{
         flex-direction: column;
     }    
@@ -166,9 +188,10 @@ h3{
     justify-content: space-between;
     margin-bottom: 100px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .role-main{
         flex-direction: column;
+        align-items: center;
     }    
 }
 .role-card{
@@ -177,9 +200,9 @@ h3{
     box-shadow: 0px 2px 10px #00000014;
     background: white;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .role-card{
-        width: 100%;
+        width: 70%;
         margin-bottom: 24px;
     }    
 }
@@ -198,24 +221,43 @@ h4{
 }
 .section-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 767px){
+    .section-content{
+        flex-direction: column-reverse;
+    }    
 }
 .section-tips{
     display: flex;
     flex-wrap: wrap;
-    width: 55%;
+    width: 53%;
+}
+@media screen and (max-width: 767px){
+    .section-tips{
+        align-items: center;
+    }    
 }
 .section-card{
     display: flex;
     flex-wrap: wrap;
     width: 230px;
+    background: white;
     padding: 32px 32px 48px 32px;
     box-shadow: 0px 2px 10px #00000014;
     border-radius: 12px;
     margin: 0 47px 28px 0;
-
 }
+@media screen and (max-width: 767px){
+    .section-card{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 24px 0;
+    }    
+}
+
 .section-card-img{
     width: 86px;
     height: 86px;
@@ -233,7 +275,20 @@ h5{
     font-size: 16px;
     margin-top: 16px;
 }
+.section-slogan{
+    padding-left: 20px;
+}
+@media screen and (max-width: 767px){
+    .section-slogan{
+        text-align: center;
+        margin-bottom: 32px;
+    }    
+}
 .section-slogan p{
     margin: 16px 0 24px 0;
     font-size: 18px;
+}
+
+.section-slogan  a{
+    background:#56C4C5;
 }
