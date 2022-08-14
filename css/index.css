@@ -26,7 +26,7 @@ p{
     margin: 0 auto;
     background-image: url(/chatTalker_images/bg_home.svg),url(/chatTalker_images/ball01.svg);
     background-repeat: no-repeat,no-repeat;
-    background-position: top right,left -200px bottom 350px;
+    background-position: top right,left -200px top 510px;
 }
 @media screen and (max-width: 767px){
     .wrap{
@@ -34,7 +34,7 @@ p{
         background-image: url(/chatTalker_images/bg_home_sm.svg),url(/chatTalker_images/ball01.svg);
         background-repeat: no-repeat;
         background-size: 500px,300px;
-        background-position: center bottom 1040px,left -200px bottom 615px;
+        background-position: center top 520px,left -200px top 1200px;
     }
 }
 .btn-top{
@@ -234,6 +234,7 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 72px;
 }
 @media screen and (max-width: 767px){
     .section-content{
@@ -264,11 +265,9 @@ h4{
     .section-card{
         width: 100%;
         flex-direction: column;
-        align-items: center;
         margin: 0 0 24px 0;
     }    
 }
-
 .section-card-img{
     width: 86px;
     height: 86px;
@@ -293,13 +292,46 @@ h5{
     .section-slogan{
         text-align: center;
         margin-bottom: 32px;
+        padding-left: 0;
     }    
 }
 .section-slogan p{
     margin: 16px 0 24px 0;
     font-size: 18px;
 }
-
 .section-slogan  a{
     background:#56C4C5;
+}
+
+
+.feeback{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-image: url(/chatTalker_images/home_footer.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 134px;
+}
+.footer-main{
+    padding: 260px 0 100px 0;
+}
+.footer-main a{
+    background:#56C4C5;
+}
+
+.footer .planbtn{
+    margin-top:48px ;
+}
+
+
+.footer-info{
+    background: #F5F5F5;
+}
+.footer-info p{
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 0;
 }
