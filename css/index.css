@@ -24,14 +24,14 @@ p{
 .wrap{
     max-width: 1440px;
     margin: 0 auto;
-    background-image: url(./chatTalker_images/bg_home.svg),url(./chatTalker_images/ball01.svg);
+    background-image: url(/chatTalker_images/bg_home.svg),url(/chatTalker_images/ball01.svg);
     background-repeat: no-repeat,no-repeat;
     background-position: top right,left -200px top 510px;
 }
 @media screen and (max-width: 767px){
     .wrap{
         background-image: none;
-        background-image: url(./chatTalker_images/bg_home_sm.svg),url(./chatTalker_images/ball01.svg);
+        background-image: url(/chatTalker_images/bg_home_sm.svg),url(/chatTalker_images/ball01.svg);
         background-repeat: no-repeat;
         background-size: 500px,300px;
         background-position: center top 520px,left -200px top 1200px;
@@ -296,7 +296,7 @@ h5{
     }    
 }
 .section-slogan p{
-    margin: 16px 0 24px 0;
+    margin: 16px 0 45px 0;
     font-size: 18px;
 }
 .section-slogan  a{
@@ -310,7 +310,7 @@ h5{
 
 .footer{
     text-align: center;
-    background-image: url(./chatTalker_images/home_footer.svg);
+    background-image: url(/chatTalker_images/home_footer.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 134px;
