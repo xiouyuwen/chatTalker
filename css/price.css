@@ -1,0 +1,167 @@
+*::before, 
+*::after {box-sizing: border-box;}
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #221E1F;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: none;
+    border: none; 
+}
+p{
+    color: #221E1F;
+}
+.wrap{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(/chatTalker_images/banner.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+@media screen and (max-width: 767px){
+    .wrap{
+        background-image: none;
+        background-image: url(/chatTalker_images/banner_sm.svg);
+        background-repeat: no-repeat;
+    }
+}
+.gray-bg{
+    width: 1440px;
+    height: 470px;
+    background: #F7F9FD;
+    border-radius: 0 0 0 300px;
+    position: absolute;
+    top:0;
+    z-index: -2;
+}
+.btn-top{
+    display: block;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    background-color: #56C4C5;
+    font-size: 24px;
+    color: white;
+    position: fixed;
+    bottom: 5rem;
+    right: 10rem;
+    cursor: pointer;
+    z-index: 5;
+    text-align: center;
+    line-height: 2.8;
+    font-weight: bold;
+    
+}
+@media screen and (max-width: 767px){
+    .btn-top{
+        right: 5rem;
+    }
+}
+.container{
+    max-width: 1088px;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+@media screen and (max-width: 767px){
+    .container{
+        max-width: 555px;
+    }
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 767px){
+    .header{
+        background: white;
+        padding-bottom: 24px;
+        position:sticky;
+        top: 0;
+    }
+}
+.header-border{
+    border-bottom: 2px solid #FFD23D;
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .header-border{
+        display: flex;
+        position:sticky;
+        top: 0;
+    } 
+}
+.logo img{
+    width: 215px;
+}
+.planbtn a{
+    font-size: 16px;
+    color:white;
+    padding: 10px 32px;
+    text-decoration: none;
+    background: #FF5D50;
+    border-radius: 22px;
+}
+.planbtn a:hover{
+    background: #FF7A70;
+    color: #FFF238;
+}
+.banner{
+    margin-top: 127px;
+    margin-bottom: 280px;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer-info{
+    background: #F5F5F5;
+}
+.footer-info p{
+    text-align: center;
+    font-size: 16px;
+    padding: 16px 0;
+} */
