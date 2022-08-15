@@ -30,9 +30,10 @@ p{
 }
 @media screen and (max-width: 767px){
     .wrap{
-        background-image: none;
         background-image: url(/chatTalker_images/banner_sm.svg);
         background-repeat: no-repeat;
+        background-position: left top 92px;
+        background-size: contain;
     }
 }
 .gray-bg{
@@ -43,6 +44,13 @@ p{
     position: absolute;
     top:0;
     z-index: -2;
+}
+@media screen and (max-width: 767px){
+    .gray-bg{
+        width: 767px;
+        
+        top: 92px;
+    }
 }
 .btn-top{
     display: block;
@@ -60,7 +68,6 @@ p{
     text-align: center;
     line-height: 2.8;
     font-weight: bold;
-    
 }
 @media screen and (max-width: 767px){
     .btn-top{
@@ -80,11 +87,11 @@ p{
 .header{
     display: flex;
     justify-content: space-between;
+    
 }
 @media screen and (max-width: 767px){
-    .header{
+    .header .wrap{
         background: white;
-        padding-bottom: 24px;
         position:sticky;
         top: 0;
     }
@@ -96,6 +103,7 @@ p{
 @media screen and (max-width: 767px){
     .header-border{
         display: flex;
+        margin-top: 24px;
         position:sticky;
         top: 0;
     } 
@@ -132,10 +140,34 @@ h2{
     font-weight: bold;
     text-align: center;
 }
+.main-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-price-nav{
+    margin: 48px 0 64px 0 ;
+}
+.price-button{
+    font-size: 18px;
+    color: #56C4C5;
+    background: white;
+    border: 1px solid #56C4C5;
+    padding: 12px 32px;
+    border-radius: 27px;
+    margin-right: 16px;
+    margin-left: 8px;
+}
+.price-button:hover{
+    font-size: 18px;
+    color: white;
+    background: #56C4C5;
+}
 
-
-
-
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
 
