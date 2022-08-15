@@ -27,17 +27,18 @@ p{
     background-image: url(/chatTalker_images/banner.svg);
     background-repeat: no-repeat;
     background-position: top right;
+    overflow:hidden;
 }
 @media screen and (max-width: 767px){
     .wrap{
         background-image: url(/chatTalker_images/banner_sm.svg);
         background-repeat: no-repeat;
-        background-position: left top 92px;
+        background-position: center top 92px;
         background-size: contain;
     }
 }
 .gray-bg{
-    width: 1440px;
+    min-width: 1440px;
     height: 470px;
     background: #F7F9FD;
     border-radius: 0 0 0 300px;
@@ -47,9 +48,7 @@ p{
 }
 @media screen and (max-width: 767px){
     .gray-bg{
-        width: 767px;
-        
-        top: 92px;
+        display: none;
     }
 }
 .btn-top{
@@ -135,6 +134,11 @@ h1{
     font-size: 16px;
     margin-top: 16px;
 }
+@media screen and (max-width: 767px){
+    .main{
+        padding-top: 400px;
+    }
+}
 h2{
     font-size: 32px;
     font-weight: bold;
@@ -148,6 +152,11 @@ h2{
 .main-price-nav{
     margin: 48px 0 64px 0 ;
 }
+@media screen and (max-width: 767px){
+    .main-price-nav{
+        text-align: center;
+    }    
+}
 .price-button{
     font-size: 18px;
     color: #56C4C5;
@@ -158,25 +167,89 @@ h2{
     margin-right: 16px;
     margin-left: 8px;
 }
+@media screen and (max-width: 767px){
+    .price-button{
+        margin-bottom: 20px;
+    }    
+}
 .price-button:hover{
     font-size: 18px;
     color: white;
     background: #56C4C5;
 }
 
+.main-price-plan{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 32px 23px ;
+}
+.main-price-plan-card{
+    background: white;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    padding-top: 20px;
+}   
 h3{
     font-size: 24px;
     font-weight: bold;
 }
+.main-border{
+    border-bottom: 2px solid #F5F5F5;
+    margin: 20px 0 32px 0;
+}
+.main-price-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 40px;
+}
+.main-people-money{
+    background:#F5F5F5;
+    padding: 24px 32px;
+    border-radius: 12px;
+}
+.main-people-money p{
+    font-size: 12px;
+}
+.main-people-money span{
+    font-size: 32px;
+    color: #56C4C5;
+}
+.main-people-money sub{
+    font-size: 12px;
+    color: #56C4C5;
+}
+.color{
+    color: #221E1F;
+}
+.same{
+    font-size: 29px;  
+    font-weight: bold;
+    margin-right: 21px;
+    margin-left: 21px;
+}
 
 
 
-
-
-
-
-
-
+.main-price-advantage-box{
+    
+    padding-left: 44px;
+    padding-bottom: 48px;
+}
+.main-price-advantage{
+    display: flex;
+    margin-bottom: 16px;
+}
+.main-price-advantage img{
+    margin-right: 15px;
+}
+.main-price-btn{
+    margin-top: 100px;
+}
+.main-price-btn a{
+    background: #56C4C5;
+}
 
 
 
