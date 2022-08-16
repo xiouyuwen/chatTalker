@@ -141,20 +141,18 @@
         <section  class="qa container" >
             <h2>常見問題</h2>
             <div class="qa-box">
-                <p>
-                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                      Link with href
-                    </a>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                      Button with data-bs-target
-                    </button>
-                  </p>
-                  <div class="collapse" id="collapseExample">
-                    <div class="card card-body">
-                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="question-box accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            我要怎麼變更方案？
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">請聯絡您的業務專員修改訂閱方案，我們將為您進行變更流程。</div>
+                        </div>
                     </div>
-                  </div>
-                  
+                </div>
             </div>
         </section>
         
