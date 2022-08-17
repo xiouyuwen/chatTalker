@@ -25,14 +25,14 @@ p{
 .wrap{
     max-width: 1440px;
     margin: 0 auto;
-    background-image: url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/f4bb518f5e4bcc56b657dea0380895c22d40a2ea/chatTalker_images/banner.svg);
+    background-image: url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/959f585ba704e3258463f13d936ca23a271599cc/chatTalker_images/banner.svg);
     background-repeat: no-repeat;
     background-position: top right;
     overflow:hidden;
 }
 @media screen and (max-width: 767px){
     .wrap{
-        background-image: url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/f4bb518f5e4bcc56b657dea0380895c22d40a2ea/chatTalker_images/banner_sm.svg);
+        background-image: url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/959f585ba704e3258463f13d936ca23a271599cc/chatTalker_images/banner_sm.svg);
         background-repeat: no-repeat;
         background-position: center top 92px;
         background-size: contain;
