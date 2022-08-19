@@ -6,6 +6,7 @@ body{
     color: #221E1F;
     letter-spacing: 2px;
     line-height: 1.5;
+    
 }
 img{
     max-width: 100%;
@@ -310,18 +311,13 @@ h5{
 
 .feeback{
     text-align: center;
-}
-.feeback-box {
-    margin-top: 104px;
-}
-.swiper{
-    overflow: unset; 
+    margin-bottom: 104px;
 }
 .feeback-item {
     background: #FFFFFF;
     box-shadow: 0px 2px 10px #00000014;
     border-radius: 12px;
-    
+
     position: relative;
 }
 .feeback-img img{
@@ -352,19 +348,6 @@ h5{
     width: 20px;
     border-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
