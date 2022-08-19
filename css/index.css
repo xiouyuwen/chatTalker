@@ -308,6 +308,66 @@ h5{
 } */
 
 
+.feeback{
+    text-align: center;
+}
+.feeback-box {
+    margin-top: 104px;
+}
+.swiper{
+    overflow: unset; 
+}
+.feeback-item {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    
+    position: relative;
+}
+.feeback-img img{
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    top:-50px;
+    left: 20px;
+}
+.feeback-info {
+    padding: 48px 32px 20px 32px;
+}
+.feeback-info p{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 24px;
+}    
+h5{
+    padding: 24px 0 8px 0; 
+}
+.feeback-name{
+    display: flex;
+    justify-content: space-between;
+}
+.swiper-pagination{
+    margin-top: 10px;
+}
+.swiper-pagination-bullet-active {
+    width: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
