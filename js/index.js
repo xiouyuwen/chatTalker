@@ -9,35 +9,13 @@ $(document).ready(function() {
     })
 });
 
-// function feebackSwiper() {
-//     const swiper = new Swiper("#comment-swiper", {
-        
-//         breakpoints: {
-//             1440: {
-//                 slidesPerView: 3
-//             },
-//             767: {
-//                 slidesPerView: 2
-//             },
-//                 /* 更小時都顯示 1 欄 */
-//             0: {
-//                 slidesPerView: 1
-//             }
-//         },
-
-//             spaceBetween: 16,
-//             pagination: {
-//                 el: ".swiper-pagination",
-//                 clickable: true,
-//             },
-//     });
-// }
-// feebackSwiper();
 
 
 
 var swiper = new Swiper(".mySwiper", {
+    /*  預設要顯示幾個卡片 */
     slidesPerView: 3,
+     /* 斷點設定 */
     breakpoints: {
         /* 螢幕寬度大於等於 992px 時切換為 3 欄 */
         992: {
@@ -52,9 +30,12 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1
         }
     },
+    /* 卡片元素的間隔 */
     spaceBetween: 30,
     pagination: {
+         /* 我想將分頁圓點綁在哪個 class */
         el: ".swiper-pagination",
+        /* 將輪播設定為可以點擊分頁圓點來切換圖片 */
         clickable: true,
     },
 });

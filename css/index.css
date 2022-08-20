@@ -38,6 +38,15 @@ p{
         background-position: center top 520px,left -200px top 1200px;
     }
 }
+@media screen and (max-width: 414px){
+    .wrap{
+        background-image: none;
+        background-image: url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/b9707d12a76ec2d410468c41549b43ef75fe5872/chatTalker_images/bg_home_sm.svg),url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/b9707d12a76ec2d410468c41549b43ef75fe5872/chatTalker_images/ball01.svg);
+        background-repeat: no-repeat;
+        background-size: 385px,260px;
+        background-position: center top 520px,left -200px top 1020px;
+    }
+}
 .btn-top{
     display: block;
     width: 71px;
@@ -380,4 +389,9 @@ h5{
     text-align: center;
     font-size: 16px;
     padding: 16px 0;
+}
+@media screen and (max-width: 414px){
+    .footer-main h2{
+        font-size: 25px;
+    }
 }
