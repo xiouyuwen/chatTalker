@@ -39,7 +39,7 @@ p{
     }
 }
 .gray-bg{
-    min-width: 1440px;
+    width: 1440px;
     height: 470px;
     background: #F7F9FD;
     border-radius: 0 0 0 300px;
