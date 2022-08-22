@@ -346,15 +346,9 @@ h5{
         font-size: 17px;
     }
 }
-.section-slogan  a{
+.section-slogan .planbtn a{
     background:#56C4C5;
 }
-
-/* .feeback-ball{
-    background-image: url(/chatTalker_images/ball03.svg);
-    background-repeat: no-repeat;
-    background-position:  ;
-} */
 
 
 .feeback{
