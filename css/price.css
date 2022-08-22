@@ -48,7 +48,7 @@ p{
     top:0;
     z-index: -2;
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 767px){
     .gray-bg{
         display: none;
     }
@@ -91,7 +91,7 @@ p{
 .container{
     max-width: 1088px;
     margin: 0 auto;
-    padding-top: 24px;
+    padding-top: 35px;
 }
 @media screen and (max-width: 992px){
     .container{
