@@ -31,7 +31,7 @@ var swiper = new Swiper(".mySwiper", {
         }
     },
     /* 卡片元素的間隔 */
-    spaceBetween: 30,
+    spaceBetween: 15,
     pagination: {
          /* 我想將分頁圓點綁在哪個 class */
         el: ".swiper-pagination",
