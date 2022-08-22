@@ -346,8 +346,13 @@ h5{
         font-size: 17px;
     }
 }
-.section-slogan .planbtn a{
+.section-slogan a{
     background:#56C4C5;
+    font-size: 16px;
+    color:white;
+    padding: 10px 32px;
+    text-decoration: none;
+    border-radius: 22px;
 }
 
 
