@@ -126,7 +126,7 @@ p{
 .logo img{
     width: 215px;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
     .logo img{
         width: 150px;
     }
@@ -139,7 +139,7 @@ p{
     background: #FF5D50;
     border-radius: 22px;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
     .planbtn a{
         padding: 5px 15px;
     }
