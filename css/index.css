@@ -341,14 +341,12 @@ h4{
     .section-card{
         width: 100%;
         padding: 14px 0 13px 21px;
-        margin: 0 15px 28px 0;
+        margin: 0 5px 28px 5px;
     }
 }
 @media screen and (max-width: 767px){
     .section-card{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }    
 }
 .section-card-img{
@@ -439,15 +437,6 @@ h6{
     width: 20px;
     border-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
 .footer{
     text-align: center;
     background-image: url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/b9707d12a76ec2d410468c41549b43ef75fe5872/chatTalker_images/home_footer.svg);
