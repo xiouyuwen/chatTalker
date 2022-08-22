@@ -227,7 +227,9 @@ h2{
 }
 @media screen and (max-width: 992px){
     .main-price-plan{
+        width: 100%;
         flex-direction: column;
+        align-items: center;
     }
 }
 .main-price-plan-card{
@@ -238,7 +240,7 @@ h2{
 }
 @media screen and (max-width: 992px){
     .main-price-plan-card{
-        margin:0 5px;
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 767px){
