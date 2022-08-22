@@ -184,7 +184,11 @@ h2{
 .main-price{
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+@media screen and (max-width: 992px){
+    .main-price{
+        flex-wrap: wrap;
+    }
 }
 .main-price-nav{
     margin: 48px 0 64px 0 ;
