@@ -185,11 +185,7 @@ h2{
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 992px){
-    .main-price{
-        flex-wrap: wrap;
-    }
-}
+
 .main-price-nav{
     margin: 48px 0 64px 0 ;
 }
@@ -252,6 +248,11 @@ h2{
         margin-bottom: 30px;
     }
 }
+@media screen and (max-width: 414px){
+    .main-price-plan-card{
+        padding: 0 10px 0 10px;
+    }
+}
 h3{
     font-size: 24px;
     font-weight: bold;
@@ -266,10 +267,20 @@ h3{
     align-items: center;
     margin: 32px 40px;
 }
+@media screen and (max-width: 414px){
+    .main-price-box{
+        margin: 32px 0px;
+    }
+}
 .main-people-money{
     background:#F5F5F5;
     padding: 24px 40px;
     border-radius: 12px;
+}
+@media screen and (max-width: 414px){
+    .main-people-money{
+        padding: 24px 20px;
+    }
 }
 .main-people-money p{
     font-size: 12px;
@@ -294,9 +305,19 @@ h3{
 .main-price-advantage-box{
     padding-left: 30px;
 }
+@media screen and (max-width: 414px){
+    .main-price-advantage-box{
+        padding-left: 0;
+    }
+}
 .main-price-advantage{
     display: flex;
     margin-bottom: 16px;
+}
+@media screen and (max-width: 414px){
+    .main-price-advantage p{
+        font-size: 12px;
+    }
 }
 .main-price-advantage img{
     margin-right: 15px;
