@@ -141,7 +141,7 @@ p{
 .header-main{
     display: flex;
     justify-content: space-between;
-    margin-top: 30x;
+    margin-top: 60px;
 }
 @media screen and (max-width: 767px){
     .header-main{
@@ -339,14 +339,15 @@ h4{
 }
 @media screen and (max-width: 992px){
     .section-card{
+        width: 100%;
         padding: 14px 0 13px 21px;
         margin: 0 15px 28px 0;
     }
 }
 @media screen and (max-width: 767px){
     .section-card{
-        width: 100%;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }    
 }
