@@ -1,13 +1,27 @@
+
 $(document).ready(function() {
 
     $('.btn-top').click(function(e) {
-        (e).preventDefault();
-        $('html,body').animate({
-            scrollTop: 0
-        }, 
-        1000
-        );
-    })    
+        
+        $('html, body').scrollTop(0);
+    })
+
+    $(window).scroll(function () {
+        
+        if ($(window).scrollTop() > 200) {
+            // 當元素有hide時，會回傳true，沒有則false
+          //if ($('.btn-top').hasClass("show")) {
+            // 當有此className時刪除，沒有則新增
+            // $('.btn-top').toggleClass("hide");
+            // 當捲軸高度大餘200時，會刪除className(hide)
+            $('.btn-top').addClass('show');
+          //}
+        } else {
+            // 當捲軸高度小餘200時，會加入className＝hide
+            $('.btn-top').removeClass("show");
+        }
+    });
+
 });
 
 

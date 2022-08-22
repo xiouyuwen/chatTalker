@@ -48,7 +48,6 @@ p{
     }
 }
 .btn-top{
-    display: block;
     width: 71px;
     height: 71px;
     border-radius: 50%;
@@ -63,6 +62,11 @@ p{
     text-align: center;
     line-height: 2.8;
     font-weight: bold;
+    display: none;
+}
+
+.btn-top.show {
+    display: block;
 }
 @media screen and (max-width: 992px){
     .btn-top{
@@ -405,7 +409,10 @@ h5{
 }
 .feeback{
     text-align: center;
-    margin-bottom: 104px;
+    margin-bottom: 40px;
+}
+.feeback-box{
+    padding-top: 50px;
 }
 .feeback-item {
     background: #FFFFFF;
