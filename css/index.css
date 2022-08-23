@@ -44,7 +44,7 @@ p{
         background-image: url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/b9707d12a76ec2d410468c41549b43ef75fe5872/chatTalker_images/bg_home_sm.svg),url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/b9707d12a76ec2d410468c41549b43ef75fe5872/chatTalker_images/ball01.svg);
         background-repeat: no-repeat;
         background-size: 330px,230px;
-        background-position: center top 430px,left -200px top 1020px;
+        background-position: center top 460px,left -200px top 1020px;
     }
 }
 .btn-top{
@@ -151,6 +151,12 @@ p{
         flex-direction: column;
     }
 }
+@media screen and (max-width:414px){
+    .header-main{
+        margin-top: 8px;
+    }
+    
+}
 .hd-txt{
     margin: 188px 0 8px 0 ;
     font-size: 18px;
@@ -187,7 +193,7 @@ h1{
         font-size: 16px;
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
     .hd-txt2{
         font-size: 16px;
         margin: 16px 0 0 0;

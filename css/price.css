@@ -28,7 +28,6 @@ p{
     background-image: url(https://raw.githubusercontent.com/xiouyuwen/chatTalker/959f585ba704e3258463f13d936ca23a271599cc/chatTalker_images/banner.svg);
     background-repeat: no-repeat;
     background-position: top right;
-    overflow:hidden;
 }
 @media screen and (max-width: 767px){
     .wrap{
@@ -36,6 +35,11 @@ p{
         background-repeat: no-repeat;
         background-position: center top 103px;
         background-size: contain;
+    }
+}
+@media screen and (max-width: 414px){
+    .wrap{
+        background-position: center top 93px;
     }
 }
 .gray-bg{
@@ -156,6 +160,11 @@ p{
 .banner{
     margin-top: 127px;
     margin-bottom: 280px;
+}
+@media screen and (max-width: 414px){
+    .banner{
+        margin-top: 40px;
+    }
 }
 h1{
     font-size: 48px;
